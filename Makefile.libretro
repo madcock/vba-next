@@ -355,6 +355,7 @@ else ifeq ($(platform), sf2000)
     STATIC_LINKING = 1
 	TILED_RENDERING=1
 	LOAD_FROM_MEMORY = 0
+	USE_FRAME_SKIP=1
 
 # Libxenon
 else ifeq ($(platform), xenon)
